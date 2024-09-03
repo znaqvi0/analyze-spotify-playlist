@@ -190,20 +190,6 @@ widgets = [playlist_url_label, playlist_url_entry,
            sorted_label, sorted_checkbox,
            submit_button]
 
-# Pack the widgets
-# playlist_url_label.pack()
-# playlist_url_entry.pack()
-#
-# num_top_artists_label.pack()
-# num_top_artists_entry.pack()
-#
-# by_minutes_label.pack()
-# by_minutes_checkbox.pack()
-#
-# sorted_label.pack()
-# sorted_checkbox.pack()
-#
-# submit_button.pack()
 for widget in widgets:
     widget.pack()
 
